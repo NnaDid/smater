@@ -290,6 +290,35 @@ input[type=range]::-webkit-slider-runnable-track {
     margin-top: -7px;
   }
 
+  .input__holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input__holder span{
+    height: 30px;
+    width:1px;
+    border: 1px solid var(--primary-color); 
+  }
+
+  /* input[type=range]::after {  
+    content: '';
+    height: 200px;
+    width:1px;
+    border: 1px solid var(--primary-color);
+    margin-bottom: -10px;
+  }
+
+  input[type=range]::before { 
+    content: '';
+    height: 200px;
+    width:1px;
+    border: 1px solid var(--primary-color);
+    margin-bottom: -10px;
+  } */
+
 .school__design__mid__main .right{
     width:20%;
     text-align: left;
